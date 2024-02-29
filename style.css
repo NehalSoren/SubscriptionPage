@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+  height: 100vh;
+  background: ghostwhite;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Ubuntu, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+}
+
+.free {
+  height: 450px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 30px;
+  position: relative;
+}
+
+.basic {
+  height: 450px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 30px;
+  position: relative;
+}
+
+.premiun {
+  height: 450px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 10px;
+  position: relative;
+}
+
+.head {
+  font-size: 40px;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.price {
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+hr {
+  width: 25%;
+  height: 2px;
+  background-color: limegreen;
+  outline: none;
+  border: none;
+}
+
+li {
+  margin: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: limegreen;
+  border: none;
+  outline: none;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+  height: 40px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Ubuntu, sans-serif;
+  }
+}
